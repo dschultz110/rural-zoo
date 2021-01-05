@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>The Rural Zoo</title>
+        <link href="css/style-min.css" type="text/css" rel="stylesheet" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="shortcut icon" type="image/png" href="img/icon.gif"/>
+        <link rel="shortcut icon" type="image/png" href="img/icon.gif"/>
+        <script src="js/main-min.js"></script>
+    </head>
+    <body>
+
+        <header>
+            <div id="head">
+                <div id="logo" class="flexitem"><img src="img/logo.png" alt="Rural Zoo Logo"></div>
+                <div id="mainHeading" class="flexitem"><h1>The Rural Zoo</h1></div>
+                <div id="headline" class="flexitem"><h2 class="headline">We Have Nothing You Haven't Seen Before</h2></div>
+            </div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="exhibits.html">Exhibits</a>
+                <a href="contact.html" class="active">Contact</a>
+            </nav>
+        </header>
+
+        <div id="container" class="flexitem">
+            <main class="flexitem">
+                <div>
+                <h2>Contact Us</h2>
+                <form action="thankyou.html" method="post">
+                    <label for="fullname">Name: </label>
+                    <input id="fullname" name="fullname" type="text">
+                    <p class="error" id="fullname_error">* Name is a Required Field *</p>
+
+                    <label for="email">Email: </label>
+                    <input id="email" name="email" type="email">
+                    <p class="error" id="email_error">* Email is a Required Field *</p>
+                    <p class="error" id="emailformat_error">* Invalid Email Address *</p>
+
+                    <label for="phone">Phone Number: </label>
+                    <input id="phone" name="phone" type="tel">
+                    <p class="error" id="phone_error">* Phone Number is a Required Field *</p>
+                    <p class="error" id="phoneformat_error">* Invalid Phone Number *</p>
+
+                    <label for="message">Your Message: </label>
+                    <textarea id="message" name="message"></textarea>
+                    <p class="error" id="message_error">* Message is a Required Field *</p>
+
+                    <button type="submit" id="submit">Send Message</button>
+                    <button type="reset" id="clear">Clear Form</button>
+                </form>
+                </div>
+             </main>
+             <aside class="flexitem">
+                 <div>
+                     <table>
+                        <tr>
+                            <th>Address:</th>
+                            <td>Rural</td>
+                        </tr>
+                        <tr>
+                            <th>Phone:</th>
+                            <td>204-555-1234</td>
+                        </tr>
+                        <tr>
+                            <th>Fax:</th>
+                            <td>204-555-1222</td>
+                        </tr>
+                        <tr>
+                            <th>Cell:</th>
+                            <td>204-555-1223</td>
+                        </tr>
+                        <tr>
+                            <th>Email:</th>
+                            <td>inquire@Ruralzoo.ca</td>
+                        </tr>
+                     </table>
+                </div>
+             </aside>
+        </div>
+
+        <footer>
+            <p>Copyright &copy; 2019 Rural Zoo</p>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="exhibits.html">Exhibits</a>
+                <a href="contact.html" class="active">Contact</a>
+            </nav>
+        </footer>
+
+    </body>
+</html>
